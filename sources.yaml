@@ -1,0 +1,60 @@
+- url: https://www.incometaxindia.gov.in/income-tax-act-202511
+  doc_type: hub
+  act: IT-2025
+  tax_domain: income_tax
+  as_of: null
+
+- url: https://www.incometaxindia.gov.in/w/income-tax-act-2025-comes-into-force-from-1st-april-2026
+  doc_type: press_release
+  act: IT-2025
+  tax_domain: income_tax
+  as_of: 2026-04-01
+
+- url: https://www.incometaxindia.gov.in/documents/d/guest/press-release-income-tax-act-2025-comes-into-force-from-01-april-2026-pdf
+  doc_type: press_release
+  act: IT-2025
+  tax_domain: income_tax
+  as_of: 2026-04-01
+
+- url: https://www.incometaxindia.gov.in/w/rule-1-104
+  doc_type: rules
+  act: IT-2025
+  tax_domain: income_tax
+  as_of: null
+
+- url: https://cbic-gst.gov.in/archives.html
+  doc_type: hub
+  act: GST
+  tax_domain: gst
+  as_of: null
+
+- url: https://cbic-gst.gov.in/faq.html
+  doc_type: faq
+  act: GST
+  tax_domain: gst
+  as_of: null
+
+- url: https://www.gstcouncil.gov.in/sites/default/files/2024-02/final-gst-fq-31218.pdf
+  doc_type: faq
+  act: GST
+  tax_domain: gst
+  as_of: 2018-12-15
+
+- url: https://cbic-gst.gov.in/sabka-vishwas.html
+  doc_type: hub
+  act: SVLDRS-2019
+  tax_domain: gst
+  as_of: null
+
+- url: https://www.incometaxindia.gov.in/documents/20117/43120/Updated-FQAs-on-Interplay%26Transitions.pdf
+  doc_type: faq
+  act: IT-2025
+  tax_domain: income_tax
+  as_of: null
+
+- url: https://www.incometaxindia.gov.in/documents/d/guest/income_tax_act_1961_as_amended_by_fa_act_2026-1-pdf
+  doc_type: act
+  act: IT-1961
+  tax_domain: income_tax
+  as_of: 2026-04-01
+

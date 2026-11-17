@@ -1,0 +1,16 @@
+langchain
+langchain-core
+langchain-text-splitters
+langchain-groq
+langchain-chroma
+chromadb
+langchain-huggingface
+sentence-transformers
+beautifulsoup4
+lxml
+trafilatura
+pymupdf
+python-dotenv
+pyyaml
+httpx
+requests

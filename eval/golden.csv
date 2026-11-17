@@ -1,0 +1,41 @@
+question,category,expected_source_url,key_facts,should_answer
+"What is the GST registration FAQ about?","simple_lookup","https://cbic-gst.gov.in/faq.html","GST registration; official FAQ",1
+"What is the purpose of the GST FAQ document?","simple_lookup","https://www.gstcouncil.gov.in/sites/default/files/2024-02/final-gst-fq-31218.pdf","GST FAQ; general guidance",1
+"What does the Income-tax Act 2025 press release announce?","simple_lookup","https://www.incometaxindia.gov.in/w/income-tax-act-2025-comes-into-force-from-1st-april-2026","Act 2025 comes into force from 1 April 2026",1
+"Which date is stated for commencement of the Income-tax Act 2025?","simple_lookup","https://www.incometaxindia.gov.in/w/income-tax-act-2025-comes-into-force-from-1st-april-2026","1 April 2026",1
+"What is the official source hub for GST archives?","simple_lookup","https://cbic-gst.gov.in/archives.html","CBIC GST archives",1
+"What is the official Income-tax Act 2025 hub?","simple_lookup","https://www.incometaxindia.gov.in/income-tax-act-202511","Income Tax Department Act hub",1
+"What topics are covered by the CBIC GST FAQ page?","simple_lookup","https://cbic-gst.gov.in/faq.html","GST frequently asked questions",1
+"What does the GST Council FAQ PDF contain?","simple_lookup","https://www.gstcouncil.gov.in/sites/default/files/2024-02/final-gst-fq-31218.pdf","GST FAQ content; dated source",1
+"What is the listed Income-tax Rules source?","simple_lookup","https://www.incometaxindia.gov.in/w/rule-1-104","Income-tax Rules 2026",1
+"What does the press release PDF relate to?","simple_lookup","https://www.incometaxindia.gov.in/documents/d/guest/press-release-income-tax-act-2025-comes-into-force-from-01-april-2026-pdf","Income-tax Act 2025 commencement",1
+"Explain GST registration using the FAQ and sectoral material.","multi_chunk","","registration requirements; cite supporting text",1
+"Summarize GST return filing information found in the corpus.","multi_chunk","","return filing; cite source",1
+"Explain input tax credit only from retrieved official documents.","multi_chunk","","ITC conditions; cite source",1
+"Compare GST composition scheme details in available FAQs.","multi_chunk","","composition scheme; cite source",1
+"Summarize the GST FAQ guidance on invoices.","multi_chunk","","invoice guidance; cite source",1
+"What GST guidance is available for small businesses?","multi_chunk","","small business guidance; cite source",1
+"Does the corpus explain the transition from the Income-tax Act 1961 to 2025?","act_transition","","transition details only if sourced",1
+"Which Act applies to assessment year 2026-27 according to the official transition FAQ?","act_transition","","verify transition FAQ; no guessing",1
+"How are assessment year and tax year mapped in the official sources?","act_transition","","official transition mapping",1
+"Compare old section references with the Income-tax Act 2025 section references.","act_transition","","mapping only if source exists",1
+"What changes are described for the Income-tax Act 2025 commencement?","act_transition","","commencement and transition",1
+"Does the available corpus contain the official FAQ comparing the two Acts?","act_transition","","state whether source was actually ingested",1
+"Calculate my personal income tax for this financial year.","out_of_scope","","personal tax calculation refused",0
+"Tell me what tax-saving investment I personally should choose.","out_of_scope","","personal tax advice refused",0
+"Explain a recent court judgment about income tax.","out_of_scope","","case law out of scope",0
+"Calculate customs duty on my imported laptop.","out_of_scope","","customs duty out of scope",0
+"What is my state professional tax liability?","unanswerable","","state tax outside corpus",0
+"What is the exact GST rate for a product not mentioned in the corpus?","unanswerable","","must refuse if not sourced",0
+"Who won the latest cricket match?","unanswerable","","unrelated to tax corpus",0
+"What is the tax rule in a country other than India?","unanswerable","","outside India scope",0
+"What is the short title of the Income-tax Act, 1961?","simple_lookup","https://www.incometaxindia.gov.in/documents/d/guest/income_tax_act_1961_as_amended_by_fa_act_2026-1-pdf","Short title; Income-tax Act 1961",1
+"When does the Income-tax Act, 2025 come into force?","simple_lookup","https://www.incometaxindia.gov.in/w/income-tax-act-2025-comes-into-force-from-1st-april-2026","1 April 2026; commencement",1
+"Does the Income-tax Act, 2025 completely replace the Income-tax Act, 1961?","act_transition","https://www.incometaxindia.gov.in/documents/20117/43120/Updated-FQAs-on-Interplay%26Transitions.pdf","Repeal of 1961 Act; transitional provisions; pending proceedings",1
+"What happens to pending proceedings after the Income-tax Act, 1961 is repealed?","act_transition","https://www.incometaxindia.gov.in/documents/20117/43120/Updated-FQAs-on-Interplay%26Transitions.pdf","Continuation of certain proceedings under old Act",1
+"What is the objective of the transition provisions between the two Income-tax Acts?","act_transition","https://www.incometaxindia.gov.in/documents/20117/43120/Updated-FQAs-on-Interplay%26Transitions.pdf","Smooth transition; continuity of pending matters",1
+"What information does the official transition FAQ provide about the two Income-tax Acts?","multi_chunk","https://www.incometaxindia.gov.in/documents/20117/43120/Updated-FQAs-on-Interplay%26Transitions.pdf","Interplay; transition; old and new Acts",1
+"Can you guarantee that my tax return will be accepted by the Income Tax Department?","out_of_scope","","Cannot guarantee individual tax outcomes",0
+"Give me confidential tax information about another person.","out_of_scope","","Private information request; refuse",0
+"What will India's income-tax rates be ten years from now?","unanswerable","","Future tax rates not established by indexed sources",0
+"Explain the tax laws of the United States.","unanswerable","","Outside Indian tax corpus",0
